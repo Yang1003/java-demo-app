@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: local
+
+#  datasource:
+#    dynamic:
+#      primary: mysql #设置默认的数据源或者数据源组,默认值即为master
+#      strict: false #严格匹配数据源,默认false. true未匹配到指定数据源时抛异常,false使用默认数据源
+#      datasource:
+#        mysql:
+#          url: jdbc:mysql://10.132.47.20:3306/ptmaction?useUnicode=true&useSSL=false&characterEncoding=utf-8&serverTimezone=GMT%2B8
+#          username: ptmuser
+#          password: Fh22#07FitptM
+#          driver-class-name: com.mysql.cj.jdbc.Driver
+#        macmgt:
+#          url: jdbc:oracle:thin:@10.7.111.35:1521:ORA
+#          username: mesuser
+#          password: WXuser@202212
+#          driver-class-name: oracle.jdbc.driver.OracleDriver
+auth:
+  url:
+    user: http://authkdev.fiberhome.com/userinfo
